@@ -6,7 +6,7 @@ const VIDEOS = [
     id: 1,
     author: 'kevinpalmeraandrade',
     description: '#humor #fyp #parati #ajajaja #viral #risa',
-    src: 'https://v16-webapp.tiktok.com/5cd045498b587082aa93d693d37295f0/61da23d9/video/tos/useast2a/tos-useast2a-ve-0068c003/cab88a91bee24d938302d715f00593c4/?a=1988&br=2690&bt=1345&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FFkkag3-I&l=2022010817523701019106002400D13DAD&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3Y5Nzs6ZnQ7OTMzNzczM0ApaWg6NTM6N2U7Nzw4ZGk5OmcyaXIxcjRfbWNgLS1kMTZzczAzYTUtXmIzYjE0YS8tMjE6Yw%3D%3D&vl=&vr=',
+    src: 'https://v16-webapp.tiktok.com/59318bc7da3b4ac7f84e88c59c047982/61da23e3/video/tos/useast5/tos-useast5-ve-0068c001-tx/0077cb590cf74dac8faafac704052c9a/?a=1988&br=1892&bt=946&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FFkkag3-I&l=2022010817524001018907422527D0A1A8&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anZ4dGc6ZmZ5OTMzZzczNEApZjRkZzxlOTw1N2Q4ODU2aWdgaGc2cjRfbXBgLS1kMS9zcy0wNDYtMTEuLi8xY2AyMDU6Yw%3D%3D&vl=&vr=',
     likes: 21,
     commeents: 333,
     shares: 23,
