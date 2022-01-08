@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import { useRef, useState } from 'react'
 import styles from './styles.module.css'
+import VideoPlayerActions from './VideoPlayerActions'
 
 export default function VideoPlayer ({ src }) {
   const [playing, setPlaying] = useState(false)
@@ -29,6 +30,7 @@ export default function VideoPlayer ({ src }) {
         ref={video}
       />
       <i className={playerClassName} />
+      <VideoPlayerActions />
     </div>
   )
 }
