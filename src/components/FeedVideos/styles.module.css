@@ -1,9 +1,8 @@
 .feed{
     scroll-snap-type: y mandatory;
-    aspect-ratio: 9/16;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: auto;
+    aspect-ratio: 9/16;
     scroll-snap-type: y mandatory;
 }
 
