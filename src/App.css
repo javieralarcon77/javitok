@@ -3,14 +3,13 @@
   height: 100vh;
   display: grid;
   place-content: center;
+  overflow: hidden;
 }
 
 main{
-  aspect-ratio: 9/16;
-  overflow-y: scroll;
   border-radius: 3px;
   max-width: 375px;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   display: block;
 }
