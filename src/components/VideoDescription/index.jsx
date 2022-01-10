@@ -1,16 +1,20 @@
 import AlbumDisk from './AlbumDisk'
+import SongTicker from '../SongTicker'
 import styles from './styles.module.css'
 
-export default function VideoDescription ({ author, description, albumCover }) {
+export default function VideoDescription ({ author, description, albumCover, songTitle }) {
   return (
     <footer className={styles.description}>
       <div className={styles.textWrapper}>
-        <strong>
-          <a className={styles.author} href={`/user/${author}`}>
-            @{author}
-          </a>
-        </strong>
-        <p className={styles.text}>{description}</p>
+        <section>
+          <strong>
+            <a className={styles.author} href={`/user/${author}`}>
+              @{author}
+            </a>
+          </strong>
+          <p className={styles.text}>{description}</p>
+        </section>
+        <SongTicker songTitle={songTitle} />
       </div>
       <div>
         <AlbumDisk albumCover={albumCover} />

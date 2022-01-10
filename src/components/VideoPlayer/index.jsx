@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 import VideoPlayerActions from './VideoPlayerActions'
 import VideoDescription from '../VideoDescription/index'
 
-export default function VideoPlayer ({ src, author, description, albumCover }) {
+export default function VideoPlayer ({ src, author, description, albumCover, songTitle }) {
   const [playing, setPlaying] = useState(false)
   const video = useRef()
   const handlePlay = () => {
@@ -36,6 +36,7 @@ export default function VideoPlayer ({ src, author, description, albumCover }) {
         author={author}
         description={description}
         albumCover={albumCover}
+        songTitle={songTitle}
       />
     </div>
   )
